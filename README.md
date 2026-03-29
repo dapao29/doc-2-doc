@@ -120,16 +120,6 @@ d2d/
     └── review-lenses.md      # 三大审查视角详细定义
 ```
 
-## 与 a2a 的关系
-
-d2d 是 [a2a](https://github.com/CtriXin/agent-2-agent) 的姊妹项目：
-
-| | a2a | d2d |
-|---|---|---|
-| 审查对象 | 代码（git diff） | 任意文档 |
-| 审查视角 | Challenger / Architect / Subtractor | Skeptic / Strategist / Editor |
-| 环境检测 | 自带 preflight.sh | 复用 a2a 的 preflight |
-| 核心机制 | 跨模型对抗 | 跨模型对抗 |
 
 ## License
 
